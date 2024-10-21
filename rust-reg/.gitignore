@@ -1,0 +1,4 @@
+/target
+
+# Ignore wallet files
+*wallet.json
