@@ -1,5 +1,39 @@
 ![Projects & Experiments - David Leung - Turbin3 Builders Cohort Q4 2024](./assets/header.png)
 
+## Saipher — Turbin3 Capstone Project
+
+Saipher is an adaptive governance framework that adjusts a protocol's governance policy on-the-fly based on real-time
+conditions of a protocol under its care. The goal is to build a modular, extensible, and upgradeable governance to
+make it easier for a protocol to scale its governance to its growing needs.
+
+### Current Status
+
+The project is being developed as a Proof-of-Concept by extending the Solana Program Library (SPL) Governance program
+through a plugin program that showcases the feasibility of the concept.
+
+### Testing
+
+A special test runner is provided to run the tests for the Saipher SPL Governance Plugin. This is needed to work around
+[a bug](https://github.com/anza-xyz/agave/pull/3692) in `solana-test-validator` for upgradeable genesis programs.
+
+> [!IMPORTANT]
+> [tmux](https://github.com/tmux/tmux) is needed to run the test runner.
+
+> [!WARNING]  
+> Make sure your Solana CLI is connected to the local cluster (localhost) before running the test runner.
+
+```shell
+./tests/run-tests.sh
+```
+
+### Source
+
+The SPL Governance Plugin Proof-of-Concept is in [saipher/programs/conditional-plugin](./saipher/programs/conditional-plugin).
+
+### Deployment
+
+Devnet Deployment: [7uRFnRte9TRyEdB2wzStZeA4ZrWei1tGrCNF7zcvwC1Z](https://explorer.solana.com/address/7uRFnRte9TRyEdB2wzStZeA4ZrWei1tGrCNF7zcvwC1Z?cluster=devnet)
+
 ## Other Selected Crypto/Web3 Projects
 
 ## blake2b-solidity

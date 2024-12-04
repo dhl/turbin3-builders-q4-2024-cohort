@@ -5,7 +5,7 @@ resolution = true
 skip-lint = false
 
 [programs.localnet]
-vault = "CAcURxgJSDqquN1M1GTjKmUqi4b88AiNgcvzN9ssyHJp"
+nft_marketplace = "2e5VWZLogrPEj1GKVzPuS4ngMHXSG8ZyM5MohU7vpy4k"
 
 [registry]
 url = "https://api.apr.dev"
